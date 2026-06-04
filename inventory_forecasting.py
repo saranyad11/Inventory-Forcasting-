@@ -5,7 +5,7 @@ Inventory Forecasting and Warehouse Simulation
 from dataclasses import dataclass
 from typing import List
 import random
-
+import numpy 
 @dataclass
 class Product:
     sku: str
